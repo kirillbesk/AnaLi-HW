@@ -229,13 +229,25 @@
 				$$x^2=9$$
 				$$x=\{-3,3\}$$
 			\indent b)
+						$$ln\left(\frac{x^2-4x+3}{x^2-5x+6}\right)$$
+						Es müss: $\frac{x^2-4x+3}{x^2-5x+6} >0$\\
+						Mit Anwendung der p-q Formel findet man die Nullstellen der beiden Polynome:\\
+						$$x_{1,2}=\frac{-p}{2}\pm \sqrt{\left(\frac{p}{2}\right)^2-q}$$
+						$$=>x_{1,2}=-\left(\frac{-4}{2}\right)\pm \sqrt{\left(\frac{-4}{2}\right)^2-3}=2 \pm \sqrt{1}$$
+						$$=>x_1 = 2+1=3 \hspace{20pt}\mbox{und}\hspace{20pt} x_2 = 2-1=1$$
+						$$x_{3,4}=\left(-\frac{-5}{2}\right)\pm \sqrt{\left(\frac{-5}{2}\right)^2-6}= \frac{5}{2} \pm \sqrt{\frac{1}{4}}$$
+						$$x_3=\frac{5}{2}+\frac{1}{2}=3 \hspace{20pt}\mbox{und}\hspace{20pt} x_4=\frac{5}{2}-\frac{1}{2}$$
+						Wir können zunächst vereinfachen:
 						$$\frac{x^2-4x+3}{x^2-5x+6}>0$$
-						$$\frac{x-1}{x-2}>0$$
-					Falls $x>2$:
-						$$x>1$$
-						$$\{x \in \mathbb{R} \mid x>1\} \cup \{x \in \mathbb{R} \mid x>2\} = \{x \in \mathbb{R} \mid x>2 \}$$
-					Falls $x<2$:
-						$$x<1$$
-						$$\{x \in \mathbb{R} \mid x<1\} \cup \{x \in \mathbb{R} \mid x<2\} = \{x \in \mathbb{R} \mid x<1 \}$$
-					Es folgt: $D_{f_2} = \mathbb{R}\setminus\{[1,2]\} = [-\infty,1]\cup[2,\infty]$
+						$$<=>\frac{(x-3)(x-1)}{(x-3)(x-2)}>0$$
+						$$<=>\frac{x-1}{x-2}>0$$
+						Es müss: $x-2\neq 0$, d.h $x \neq 2$\\
+						Die Ungleichung gilt nur dann, wenn beide Terme entweder positiv oder negativ sind\\
+						1.Fall $x>1$ und $x>2$ d.h $x>2$:
+							$$L_1=]2,\infty[$$
+						2.Fall $x<1$ und $x<2$, d.h $x<1$:
+							$$L_2=]-\infty,1[$$
+						Daraus folgt:\\
+						$$L=L_1\cup L_2 = ]-\infty,1[ \hspace{5pt} \cup \hspace{5pt} ]2,\infty[$$
+						Somit $D_{f_2}=\mathbb{R}\setminus\{[1,2]\}$						
 \end{document}
