@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.4)  15 MAY 2020 00:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.4)  15 MAY 2020 01:38
 entering extended mode
 **"./HW 2.tex"
 ("HW 2.tex"
@@ -669,34 +669,50 @@ nded (in y). (see also unbounded coords=jump).
 NOTE: coordinate (1Y4.7124e0],5Y0.0e0]) has been dropped because it is unbounde
 d (in y). (see also unbounded coords=jump). 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 198--200
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 196--238
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 240--242
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 200--202
+Underfull \hbox (badness 10000) in paragraph at lines 244--247
 
  []
 
-[5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 232--235
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 277--280
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 249--251
+Underfull \hbox (badness 10000) in paragraph at lines 293--296
 
  []
 
-[8] ("HW 2.aux") ) 
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 310--312
+
+ []
+
+[9] ("HW 2.aux") ) 
 Here is how much of TeX's memory you used:
- 23467 strings out of 480930
- 619357 string characters out of 2896479
- 1019217 words of memory out of 3000000
- 38991 multiletter control sequences out of 15000+200000
+ 23558 strings out of 480930
+ 621332 string characters out of 2896479
+ 1019218 words of memory out of 3000000
+ 39082 multiletter control sequences out of 15000+200000
  537583 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,18n,98p,729b,2109s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,18n,100p,729b,2109s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Кирилл/AppData/Local/Programs/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Кирилл/AppData/Local/Prog
 rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Кирил�
@@ -713,9 +729,9 @@ iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Кирилл/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users
 /Кирилл/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/sym
 bols/msbm10.pfb>
-Output written on "HW 2.pdf" (8 pages, 153787 bytes).
+Output written on "HW 2.pdf" (9 pages, 161290 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
+ 83 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
