@@ -259,15 +259,17 @@
 		\noindent \begin{Large}Aufgabe 4:\end{Large}\\[2pt]
 			\indent a)
 				Um die Umkehrabbildung einer Funktion zu bestimmen, müss man die Gleichung $y=f(x)$ nach x Auflösen.
-				$$y=f(x)=\frac{2x+3}{x+1} => y(x+1)=2x+3=>$$
-				$$yx-2x=3-y => x(y-2)=3y=>$$
-				$$x=\frac{3y}{y-2}$$
+				$$y=f(x)=\frac{2x+3}{x+1} <=> y(x+1)=2x+3=>$$
+				$$yx-2x=3-y <=> x(y-2)=3-y<=>$$
+				$$x=\frac{3-y}{y-2}$$
 				Somit ist sie Umkehrabblidung:
-				$$f^{-1}(x)=\frac{3x}{x-2}$$
+				$$f^{-1}(x)=\frac{3-x}{x-2}$$
+				Damit sie Definiert ist müss $x \neq 2$ sein. Somit ist
 				$$D_{f^{-1}}=\mathbb{R}\setminus\{2\}$$
 			\indent b)
-				$$\frac{2\left(\frac{3x}{x-2}\right)+3}{\left(\frac{3x}{x-2}\right)+1}=\frac{\left(\frac{6x}{x-2}\right)+\left(\frac{3(x-2)}{x-2}\right)}{\left(\frac{3x}{x-2}\right)+\left(\frac{x-2}{x-2}\right)}=$$
-				$$=\frac{9x-6}{4x-2}=\frac{3(3x-2)}{2(2x-1)}$$
+				$$(f \circ f^{-1})(y) = f(f^{-1}(y)=f\left(\frac{y-3}{2-y}\right)=$$
+				$$\frac{2\left(\frac{y-3}{2-y}\right)+3}{\frac{y-3}{2-y}+1}=\frac{2\left(\frac{y-3}{2-y}\right)+3\left(\frac{2-y}{2-y}\right)}{\frac{y-3}{2-y}+\frac{2-y}{2-y}}=$$
+				$$\frac{2y-6+6-3y}{y-3+2-y}=\frac{-y}{-1}=y$$
 			\indent c)\\
 				$f(x)$ ist ein ungerader, negativer Exponent, also es ist immer moton fallend\\
 				$$\frac{d}{dx}\left[\frac{2x+3}{x+1}\right]=\frac{(x+1)(2)-(2x+3)(1)}{(x+1)^2}=$$
