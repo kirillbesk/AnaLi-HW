@@ -63,31 +63,19 @@
 					$$\geq n^2 + 2n + 2(4)$$
 					$$\geq n^2 + 2n + 1 \geq (n+1)^2$$\\
 				Teil 2:\\
-				Für $n=0,1,2,3$	\\
-				\begin{tikzpicture}
-				\begin{axis}[
-				    axis lines = middle,
-				    xmin=-2,xmax=6,ymin=0,ymax=20,
-				    xlabel = $n$,
-   					ylabel = {$f(n)$},
-]
-%Below the red parabola is defined
-				\addplot [
-				    domain=-2:6, 
-				    samples=100, 
-				    color=red,
-]
-				{x^2};
-				\addlegendentry{$n^2$}
-				\addplot [
-				    domain=-2:6, 
-				    samples=100, 
-				    color=blue,
-]
-				{2^x)};
-				\addlegendentry{$2^n$}
-			\end{axis}
-			\end{tikzpicture}\\
+				Für $n=0$	\\
+				$$2^0=0^2 \hspace{20pt} => \hspace{20pt} 0=0$$
+				Also die Aussage ist wahr für $n=0$.\\
+				Für $n=1$	\\
+				$$2^1=1^2 \hspace{20pt} => \hspace{20pt} 2=2$$
+				Also die Aussage ist wahr für $n=1$.\\
+				Für $n=2$	\\
+				$$2^2=2^2 \hspace{20pt} => \hspace{20pt} 4=4$$
+				Also die Aussage ist wahr für $n=2$.\\
+				Für $n=3$	\\
+				$$2^3=3^2 \hspace{20pt} => \hspace{20pt} 8 \neq 9$$
+				Also die Aussage ist falsch für $n=3$.\\
+				
 			Für $[0,2]$ ist $2^n \geq n^2$, aber für $[2,4]$ ist $2^n \leq n^2$\\
 			Also die Aussage gilt für $n=0,1,2$, aber nicht für $n=3$\\
 		\noindent \begin{Large}Aufgabe 2:\end{Large}\\[2pt]
@@ -111,10 +99,10 @@
 		\end{tikzpicture}\\
 			Seien $x_1, x_2 \in \mathbb{R}$ mit:
 				$$f(x_1)=f(x_2)$$
-				$$2e^{x_1}=2e^{x_2}$$
-				$$e^{x_1}=e^{x_2}$$
-				$$x_1=x_2$$
-				$$\mbox{Damit }f \mbox{ ist \underline{injektiv}.}$$
+				$$=> 2e^{x_1}=2e^{x_2}$$
+				$$=> e^{x_1}=e^{x_2}$$
+				$$=>x_1=x_2$$
+				$$=>\mbox{Damit }f \mbox{ ist \underline{injektiv}.}$$
 				Angenommen, es existiert ein $x \in D_f$, sodass $f(x)=-1$. Dann wäre aber $-1=f(x)=2e^x>0$, was einen Wiederspruch darstellt. Daher ist $-1$ nicht im Bild von $f$ und $f$ ist \underline{nicht surjektiv}.\\
 				Da $f$ injektiv, aber nicht surjektiv ist, kann sie \underline{nicht bijektiv} sein.\\
 			\indent b) $g: \mathbb{R} \rightarrow \mathbb{R}$, $x \mapsto \mid x \mid ^3$\\
@@ -149,7 +137,7 @@
 				$f_1(x)=x^2-4$ ist ein Polynom 2. Grades und im ganzen $\mathbb{R}$ definiert.\\ Also:
 				$$D_{f_1} = \mathbb{R}$$
 				$f_2(x)=\frac{1}{x^3}$ ist nur dann definiert, wenn $x^3 \neq 0$, also $x \neq 0$:\\Daher ist:
-				$$D_{f_2} = \mathbb{R}^{\neq 0}$$
+				$$D_{f_2} = \mathbb{R}\setminus \{0\}$$
 				$f_3(x) = \frac{sin(x)}{cos(x)} = tan(x)$ ist $\pi$-periodisch, d.h. $tan(\phi + k\pi)=tan(\phi)$ für alle $\phi \in \mathbb{R} \setminus \{\frac{\pi}{2}+k\pi \mid k \in \mathbb{Z}\}$\\
 				Somit ist:
 				$$D_{f_3} = \{x \in \mathbb{R} \mid x \neq \frac{\pi}{2}+k \pi \mbox{, } k \in \mathbb{Z}\}$$
@@ -186,7 +174,7 @@
 				Sei $x \in D_{f_1 \circ f_2} \subseteq D_{f_2}$. Dann gilt:
 				$$f_1 \circ f_2(x) = f_1(f_2(x)) = \left(\frac{1}{x^3}\right)^2-4=\frac{1}{x^6}-4$$
 				Also:
-				$$D_{f_1\circ f_2} = \mathbb{R}^{\neq 0}$$
+				$$D_{f_1\circ f_2} = \mathbb{R}\setminus \{0\}$$
 				$f_2 \circ f_1: D_{f_1 \circ f_2} \rightarrow \mathbb{R}$, $x \mapsto f_2(f_1(x))$\\
 				Sei $x \in D_{f_2 \circ f_1} \subseteq D_{f_1}$, dann gilt:
 				$$f_2 \circ f_1(x) = f_2(f_1(x)) = \frac{1}{(x^2-4)^3}$$
