@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.4)  15 MAY 2020 10:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.4)  15 MAY 2020 10:58
 entering extended mode
 **"./HW 2.tex"
 ("HW 2.tex"
@@ -677,38 +677,39 @@ NOTE: coordinate (1Y1.5707922e0],4Y0.0e0]) has been dropped because it is unbou
 nded (in y). (see also unbounded coords=jump). 
 NOTE: coordinate (1Y4.7124e0],5Y0.0e0]) has been dropped because it is unbounde
 d (in y). (see also unbounded coords=jump). 
+[5]
 Missing character: There is no . in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 196--238
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 240--242
+Underfull \hbox (badness 10000) in paragraph at lines 198--240
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--247
+Underfull \hbox (badness 10000) in paragraph at lines 242--244
 
  []
 
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 277--280
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--249
 
  []
 
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 293--296
+[6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 279--282
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--298
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 311--313
+Underfull \hbox (badness 10000) in paragraph at lines 313--315
 
  []
 
@@ -716,7 +717,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 311--313
 Here is how much of TeX's memory you used:
  23558 strings out of 480930
  621332 string characters out of 2896479
- 1012288 words of memory out of 3000000
+ 1008764 words of memory out of 3000000
  39082 multiletter control sequences out of 15000+200000
  537583 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -737,7 +738,7 @@ iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Кирилл/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users
 /Кирилл/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/sym
 bols/msbm10.pfb>
-Output written on "HW 2.pdf" (9 pages, 161502 bytes).
+Output written on "HW 2.pdf" (9 pages, 162029 bytes).
 PDF statistics:
  83 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
