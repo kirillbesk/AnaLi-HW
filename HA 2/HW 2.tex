@@ -202,10 +202,12 @@
 				\end{axis}
 			\end{tikzpicture}\\
 				$$0 \leq y=f(x) \leq 12$$
-				$$0 \leq x^2-4 12 \hspace{20pt} \mid +4$$
+				$$0 \leq x^2-4 \leq 12 \hspace{20pt} \mid +4$$
 				$$4 \leq x^2 \leq 16$$
 				$$2 \leq \mid x \mid \leq 4$$
-				$$\mid x \mid \geq 2 \hspace{40pt} \mid x \mid \leq 4$$
+				$$\mid x \mid \geq 2 \hspace{60pt} \mid x \mid \leq 4$$
+				$$<=> -2 \geq x\geq 2\hspace{60pt} <=> -4\leq x \leq 4$$
+				$$L=(]-\infty,-2] \hspace{5pt} \cup \hspace{5pt} [2,\infty[) \hspace{5pt} \cap \hspace{5pt} [-4,4] = [-4,-2] \hspace{5pt} \cup \hspace{5pt} [2,4]$$
 				Also:\\
 				$$f_1 \hspace{1pt}^{-1}([0,12])=[-4,-2] \hspace{5pt} \cup \hspace{5pt} [2,4]$$
 			\indent d)\\
@@ -225,22 +227,22 @@
 				\end{axis}
 			\end{tikzpicture}\\
 			Wir wissen, dass die Parabel: $x^2 \geq 0 <=> x^2-4 \geq -4$\\
-			Das heißt unsere Funktion $f(x)$ ist nach unten durch $-4$ beschränkt.
+			Das heißt unsere Funktion $f(x)$ ist nach unten durch $-4$ beschränkt.\\
 			\indent e)\\
 				$f_1(-x)=(-x)^2-4=x^2-4=f_1(x)$\\
-				$f_1(x)=f_1(-x)$ für alle $x\in\mathbb{R}$, also es ist eine gerage Funktion.\\
+				$f_1(x)=f_1(-x)$ für alle $x\in D_{f_1}$, also es ist eine gerage Funktion.\\
 
 
 				\noindent $f_3(-x)=\frac{sin(-x)}{cos(-x)}=\frac{-sin(x)}{cos(x)}=-\left(\frac{sin(x)}{cos(x)}\right)=-f_3(x)$\\
-				$f_2(x) \neq f_2(-x)$ für alle $x\in\mathbb{R}$, also es ist eine ungerade Fuktion.\\
+				$f_3(x) \neq f_3(-x)$ für alle $x\in D_{f_3}$, also es ist eine ungerade Fuktion.\\
 		\noindent \begin{Large}Aufgabe 4:\end{Large}\\[2pt]
 			\indent a)
 				Um die Umkehrabbildung einer Funktion zu bestimmen, müss man die Gleichung $y=f(x)$ nach x Auflösen.
 				$$y=f(x)=\frac{2x+3}{x+1} <=> y(x+1)=2x+3=>$$
 				$$yx-2x=3-y <=> x(y-2)=3-y<=>$$
 				$$x=\frac{3-y}{y-2}$$
-				Somit ist sie Umkehrabblidung:
-				$$f^{-1}(x)=\frac{3-x}{x-2}$$
+				Somit ist die Umkehrabblidung:
+				$$f^{-1}(y)=\frac{3-x}{x-2}$$
 				Damit sie Definiert ist müss $x \neq 2$ sein. Somit ist
 				$$D_{f^{-1}}=\mathbb{R}\setminus\{2\}$$
 			\indent b)
@@ -248,12 +250,18 @@
 				$$\frac{2\left(\frac{y-3}{2-y}\right)+3}{\frac{y-3}{2-y}+1}=\frac{2\left(\frac{y-3}{2-y}\right)+3\left(\frac{2-y}{2-y}\right)}{\frac{y-3}{2-y}+\frac{2-y}{2-y}}=$$
 				$$\frac{2y-6+6-3y}{y-3+2-y}=\frac{-y}{-1}=y$$
 			\indent c)\\
+				$$f(x)=\frac{2x+3}{x+1}$$
+				$$=\frac{2x+2+1}{x+1}$$
+				$$=\frac{2x+2}{x+1} + \frac{1}{x+1}$$
+				$$=\frac{2(x+1)}{x+1}+\frac{1}{x+1}$$
+				Da $x \in ]-1,\infty[$, wir können vereinfachen:
+				$$=>f(x)=2+\frac{1}{x+1}$$
+				Für alle $x,y \in ]-1,\infty[$ mit $x<y$: \\
 				$$x<y$$
-				$$x+1<y+1$$
-				$$\frac{1}{x+1}>\frac{1}{y+1}$$
-				Damit ist $f(x)=(2x+3)$. Da $x \in ]-1,\infty[$ gilt $2x+3>0$.
-				$$\frac{1}{x+1}>(2y+3)$$
-				$$\frac{1}{y+1}=f(y)$$
+				$$<=>x+1<y+1$$
+				$$<=>\frac{1}{x+1}>\frac{1}{y+1}$$
+				$$<=>2+\frac{1}{x+1}>2+\frac{1}{y+1}$$
+				$$<=>f(x)>f(y)$$
 				Also die Funktion ist monoton fallend für $]-1,\infty[$\\
 		\noindent \begin{Large}Aufgabe 5:\end{Large}\\[2pt]
 			\indent a)
@@ -271,19 +279,19 @@
 						$$=>x_{1,2}=-\left(\frac{-4}{2}\right)\pm \sqrt{\left(\frac{-4}{2}\right)^2-3}=2 \pm \sqrt{1}$$
 						$$=>x_1 = 2+1=3 \hspace{20pt}\mbox{und}\hspace{20pt} x_2 = 2-1=1$$
 						$$x_{3,4}=\left(-\frac{-5}{2}\right)\pm \sqrt{\left(\frac{-5}{2}\right)^2-6}= \frac{5}{2} \pm \sqrt{\frac{1}{4}}$$
-						$$x_3=\frac{5}{2}+\frac{1}{2}=3 \hspace{20pt}\mbox{und}\hspace{20pt} x_4=\frac{5}{2}-\frac{1}{2}$$
-						Wir können zunächst vereinfachen:
+						$$x_3=\frac{5}{2}+\frac{1}{2}=3 \hspace{20pt}\mbox{und}\hspace{20pt} x_4=\frac{5}{2}-\frac{1}{2}=2$$
+						Damit ist:
 						$$\frac{x^2-4x+3}{x^2-5x+6}>0$$
 						$$<=>\frac{(x-3)(x-1)}{(x-3)(x-2)}>0$$
-						Für $x \neq 3$ darf man beide Terme abkürzen
-						$$<=>\frac{x-1}{x-2}>0$$
+						Es müss $x \neq 3$ sein, damin man beide Terme abkürzen kann
+						$$=>\frac{x-1}{x-2}>0$$
 						Es müss: $x-2\neq 0$, d.h $x \neq 2$\\
 						Die Ungleichung gilt nur dann, wenn beide Terme entweder positiv oder negativ sind\\
 						1.Fall $x>1$ und $x>2$ d.h $x>2$:
 							$$L_1=]2,\infty[$$
 						2.Fall $x<1$ und $x<2$, d.h $x<1$:
 							$$L_2=]-\infty,1[$$
-						Daraus folgt:\\
-						$$L=L_1\cup L_2 = ]-\infty,1[ \hspace{5pt} \cup \hspace{5pt} ]2,\infty[$$
-						Somit $D_{f_2}=\mathbb{R}\setminus\{[1,2]\}$						
+						Also die Gesamtlösungsmenge lautet:\\
+						$$L=(L_1\cup L_2)\setminus \{3\} = (]-\infty,1[ \hspace{5pt} \cup \hspace{5pt} ]2,\infty[)\setminus \{3\}$$
+						Somit $D_{f_2}=\mathbb{R}\setminus\{[1,2],3\}$						
 \end{document}
