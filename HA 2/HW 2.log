@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.4)  15 MAY 2020 13:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.4)  15 MAY 2020 13:51
 entering extended mode
 **"./HW 2.tex"
 ("HW 2.tex"
@@ -593,42 +593,80 @@ File: tikzlibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ries\pgflibraryplotmarks.code.tex"
 File: pgflibraryplotmarks.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
+("C:\Users\Кирилл\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\m
+athtools.sty"
+Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
+
+("C:\Users\Кирилл\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.
+sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count281
+\calc@Bcount=\count282
+\calc@Adimen=\dimen267
+\calc@Bdimen=\dimen268
+\calc@Askip=\skip52
+\calc@Bskip=\skip53
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count283
+\calc@Cskip=\skip54
+)
+("C:\Users\Кирилл\AppData\Local\Programs\MiKTeX 2.9\tex/latex/mathtools\m
+hsetup.sty"
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
+\g_MT_multlinerow_int=\count284
+\l_MT_multwidth_dim=\dimen269
+\origjot=\skip55
+\l_MT_shortvdotswithinadjustabove_dim=\dimen270
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen271
+\l_MT_above_intertext_sep=\dimen272
+\l_MT_below_intertext_sep=\dimen273
+\l_MT_above_shortintertext_sep=\dimen274
+\l_MT_below_shortintertext_sep=\dimen275
+\xmathstrut@box=\box59
+\xmathstrut@dim=\dimen276
+)
 ("C:\Users\Кирилл\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l
 3backend-pdfmode.def"
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count281
-\l__pdf_internal_box=\box59
+\l__kernel_color_stack_int=\count285
+\l__pdf_internal_box=\box60
 ) ("HW 2.aux")
 \openout1 = `"HW 2.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 
 ("C:\Users\Кирилл\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii
 \supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count282
-\scratchdimen=\dimen267
-\scratchbox=\box60
-\nofMPsegments=\count283
-\nofMParguments=\count284
+\scratchcounter=\count286
+\scratchdimen=\dimen277
+\scratchbox=\box61
+\nofMPsegments=\count287
+\nofMParguments=\count288
 \everyMPshowfont=\toks38
-\MPscratchCnt=\count285
-\MPscratchDim=\dimen268
-\MPnumerator=\count286
-\makeMPintoPDFobject=\count287
+\MPscratchCnt=\count289
+\MPscratchDim=\dimen278
+\MPnumerator=\count290
+\makeMPintoPDFobject=\count291
 \everyMPtoPDFconversion=\toks39
 )
 ("C:\Users\Кирилл\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pk
@@ -640,42 +678,61 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.17} (current compat level: 1.7).
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
 
 
 ("C:\Users\Кирилл\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\um
 sa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
 
 
 ("C:\Users\Кирилл\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\um
 sb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 26--28
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
 
  []
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 32.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 32.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 32.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 32.
 
 [1
 
 {C:/Users/Кирилл/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 41--43
+Underfull \hbox (badness 10000) in paragraph at lines 44--46
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--57
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 46.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 46.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 46.
+
+
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 46.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 64--67
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 67--70
 
  []
@@ -691,7 +748,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--76
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
+Underfull \hbox (badness 10000) in paragraph at lines 76--79
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
 
  []
 
@@ -709,49 +771,49 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 186--229
+Underfull \hbox (badness 10000) in paragraph at lines 189--232
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--233
+Underfull \hbox (badness 10000) in paragraph at lines 234--236
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--238
+Underfull \hbox (badness 10000) in paragraph at lines 238--241
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 238--259
+Underfull \hbox (badness 10000) in paragraph at lines 241--262
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 276--278
+Underfull \hbox (badness 10000) in paragraph at lines 279--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--297
+Underfull \hbox (badness 10000) in paragraph at lines 297--300
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 312--314
+Underfull \hbox (badness 10000) in paragraph at lines 315--317
 
  []
 
 [9] ("HW 2.aux") ) 
 Here is how much of TeX's memory you used:
- 23535 strings out of 480930
- 620867 string characters out of 2896479
- 1008412 words of memory out of 3000000
- 39059 multiletter control sequences out of 15000+200000
+ 24088 strings out of 480930
+ 630916 string characters out of 2896479
+ 1020530 words of memory out of 3000000
+ 39601 multiletter control sequences out of 15000+200000
  537583 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,18n,100p,729b,2107s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,18n,100p,729b,2114s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Кирилл/AppData/Local/Programs/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Кирилл/AppData/Local/Prog
 rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Кирил�
@@ -768,7 +830,7 @@ iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Кирилл/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users
 /Кирилл/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/sym
 bols/msbm10.pfb>
-Output written on "HW 2.pdf" (9 pages, 159797 bytes).
+Output written on "HW 2.pdf" (9 pages, 160542 bytes).
 PDF statistics:
  83 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

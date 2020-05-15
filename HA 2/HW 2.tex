@@ -8,6 +8,9 @@
 \usetikzlibrary{arrows}
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.7}
+\usepackage{mathtools}
+
+\newcommand\myeq{\stackrel{\mathclap{\normalfont{\tiny\mbox{(IV)}}}}{=}}
 
 \begin{document}
 	\noindent \begin{huge}Kirill Beskorovainyi. Hausaufgabe 2:\end{huge}\\\vspace{0.05in}
@@ -24,9 +27,9 @@
 				Induktionsbehauptung:\\
 				Dann gilt auch:
 				$$\sum \limits_{k=1}^{n+1}(2k-1)=(n+1)^2$$
-				\underline{(IV:)} \\
-					$$\sum\limits_{k=1}^{n+1}(2k-1)=\sum\limits_{k+1}^{n}(2k-1)+2(n+1)-1=$$
-					$$=(n^2)+2n+1 = (n+1)^2$$
+				Induktionsschluss: \\
+					$$\sum\limits_{k=1}^{n+1}(2k-1)=\sum\limits_{k+1}^{n}(2k-1)+2(n+1)-1$$
+					$$\myeq(n^2)+2n+1 = (n+1)^2$$
 
 			\indent b)\\
 				Induktionsanfang: Für $n=2$
@@ -39,8 +42,8 @@
 				Induktionsbehauptung:\\
 				Dann gilt auch:
 					$$\prod\limits_{k=2}^{n+1}(1-\frac{1}{k^2})=\frac{n+2}{2(n+1)}$$
-				\underline{(IV:)} \\
-					$$\prod\limits_{k=2}^{n+1}(1-\frac{1}{k^2})=\prod\limits_{k=2}^n(1-\frac{1}{k^2})\times(1-\frac{1}{(n+1)^2})=\left(\frac{n+1}{2n}\right)\times\left(1-\frac{1}{(n+1)^2}\right)=$$
+				Induktionsschluss: \\
+					$$\prod\limits_{k=2}^{n+1}(1-\frac{1}{k^2})=\prod\limits_{k=2}^n(1-\frac{1}{k^2})\times(1-\frac{1}{(n+1)^2})\myeq\left(\frac{n+1}{2n}\right)\times\left(1-\frac{1}{(n+1)^2}\right)=$$
 					$$=\frac{n+1}{2n}-\frac{n+1}{2n(n+1)^2}=\frac{(n+1)^2-1}{2n(n+1)}=$$
 					$$=\frac{n^2+2n}{2n(n+1)}=\frac{n+2}{2(n+1)}$$
 			\indent c)\\
@@ -53,9 +56,9 @@
 				Induktionsbehauptung:\\
 				Dann gilt auch:
 					$$2^{n+1}\geq (n+1)^2$$
-				\underline{(IV:)} \\
+				Induktionsschluss: \\
 					$$2^{n+1}=2^1 \times 2^n=2^n+2^n$$
-					Aus Induktionsvoraussetzung: $2^n \geq 2^n$, also $2 \times 2^n \geq 2 \times 2^n$
+					Aus Induktionsvoraussetzung: $2^n \geq n^2$, also $2 \times 2^n \geq 2 \times n^2$
 					$$2^n+2^n \geq n^2+n^2 \geq n^2+n \times n$$
 					
 					$$n\geq4 => 2^{n+1} \geq n^2+4n$$
@@ -64,7 +67,7 @@
 					$$\geq n^2 + 2n + 1 \geq (n+1)^2$$\\
 				Teil 2:\\
 				Für $n=0$	\\
-				$$2^0=0^2 \hspace{20pt} => \hspace{20pt} 0=0$$
+				$$2^0=0^2 \hspace{20pt} => \hspace{20pt} 1>0$$
 				Also die Aussage ist wahr für $n=0$.\\
 				Für $n=1$	\\
 				$$2^1=1^2 \hspace{20pt} => \hspace{20pt} 2=2$$
