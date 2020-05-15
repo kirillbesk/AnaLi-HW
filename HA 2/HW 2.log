@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.4)  15 MAY 2020 13:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.4)  15 MAY 2020 14:20
 entering extended mode
 **"./HW 2.tex"
 ("HW 2.tex"
@@ -733,84 +733,67 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--60
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 67--70
+Underfull \hbox (badness 10000) in paragraph at lines 69--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--73
+Underfull \hbox (badness 10000) in paragraph at lines 72--75
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--76
+Underfull \hbox (badness 10000) in paragraph at lines 75--78
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--79
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--81
+Underfull \hbox (badness 10000) in paragraph at lines 78--81
 
  []
 
 [3] [4]
-NOTE: coordinate (2Y1.5708e0],5Y0.0e0]) has been dropped because it is unbounde
-d (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.5707922e0],4Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y4.7124e0],5Y0.0e0]) has been dropped because it is unbounde
-d (in y). (see also unbounded coords=jump). 
-[5]
 Missing character: There is no . in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--232
+Underfull \hbox (badness 10000) in paragraph at lines 162--204
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 208--210
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 234--236
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 238--241
+Underfull \hbox (badness 10000) in paragraph at lines 210--232
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 241--262
+Underfull \hbox (badness 10000) in paragraph at lines 249--251
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 279--281
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--300
+Underfull \hbox (badness 10000) in paragraph at lines 267--270
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 315--317
+Underfull \hbox (badness 10000) in paragraph at lines 285--287
 
  []
 
 [9] ("HW 2.aux") ) 
 Here is how much of TeX's memory you used:
- 24088 strings out of 480930
- 630916 string characters out of 2896479
- 1020530 words of memory out of 3000000
- 39601 multiletter control sequences out of 15000+200000
+ 24062 strings out of 480930
+ 630378 string characters out of 2896479
+ 993758 words of memory out of 3000000
+ 39575 multiletter control sequences out of 15000+200000
  537583 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  69i,18n,100p,729b,2114s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -830,7 +813,7 @@ iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Кирилл/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users
 /Кирилл/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/sym
 bols/msbm10.pfb>
-Output written on "HW 2.pdf" (9 pages, 160558 bytes).
+Output written on "HW 2.pdf" (9 pages, 153593 bytes).
 PDF statistics:
  83 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
