@@ -24,7 +24,7 @@
 				Induktionsbehauptung:\\
 				Dann gilt auch:
 				$$\sum \limits_{k=1}^{n+1}(2k-1)=(n+1)^2$$
-				Induktionsschluss:\\
+				\underline{(IV:)} \\
 					$$\sum\limits_{k=1}^{n+1}(2k-1)=\sum\limits_{k+1}^{n}(2k-1)+2(n+1)-1=$$
 					$$=(n^2)+2n+1 = (n+1)^2$$
 
@@ -39,10 +39,10 @@
 				Induktionsbehauptung:\\
 				Dann gilt auch:
 					$$\prod\limits_{k=2}^{n+1}(1-\frac{1}{k^2})=\frac{n+2}{2(n+1)}$$
-				Induktionsschluss:
+				\underline{(IV:)} \\
 					$$\prod\limits_{k=2}^{n+1}(1-\frac{1}{k^2})=\prod\limits_{k=2}^n(1-\frac{1}{k^2})\times(1-\frac{1}{(n+1)^2})=\left(\frac{n+1}{2n}\right)\times\left(1-\frac{1}{(n+1)^2}\right)=$$
 					$$=\frac{n+1}{2n}-\frac{n+1}{2n(n+1)^2}=\frac{(n+1)^2-1}{2n(n+1)}=$$
-					$$=\frac{n^2+2n}{2n(n+1)}=\frac{n+2}{2(n+1)}=\frac{(n+1)+1}{2(n+1)}$$
+					$$=\frac{n^2+2n}{2n(n+1)}=\frac{n+2}{2(n+1)}$$
 			\indent c)\\
 				Induktionsanfang: Für $n=4$
 					$$2^4 = 16$$
@@ -53,8 +53,8 @@
 				Induktionsbehauptung:\\
 				Dann gilt auch:
 					$$2^{n+1}\geq (n+1)^2$$
-				Induktionsschluss:
-					$$2^{n+1}=2^n=2^n+2^n$$
+				\underline{(IV:)} \\
+					$$2^{n+1}=2^1 \times 2^n=2^n+2^n$$
 					$$2^n+2^n \geq n^2+n^2 \geq n^2+n \times n$$
 					$$n\geq4 => 2^{n+1} \geq n^2+4n$$
 					$$\geq n^2 + 2n + 2n$$
@@ -301,6 +301,7 @@
 						Wir können zunächst vereinfachen:
 						$$\frac{x^2-4x+3}{x^2-5x+6}>0$$
 						$$<=>\frac{(x-3)(x-1)}{(x-3)(x-2)}>0$$
+						Für $x \neq 3$ darf man beide Terme abkürzen
 						$$<=>\frac{x-1}{x-2}>0$$
 						Es müss: $x-2\neq 0$, d.h $x \neq 2$\\
 						Die Ungleichung gilt nur dann, wenn beide Terme entweder positiv oder negativ sind\\
