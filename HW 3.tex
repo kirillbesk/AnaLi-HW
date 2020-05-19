@@ -16,29 +16,55 @@
 	
 		\noindent \begin{Large}Aufgabe 1:\end{Large}\\[2pt]
 			\indent a) \hspace{20pt} i)\\
-			$$z^3 = -8i$$
-			Wir bringen erstmal die Zahl $-8i=0+-8i$ in Eulerdarstellung, der Form $z=re^{i\phi}$.\\
-			$\bullet$  $r=\sqrt{x^2+y^2}=\sqrt{0^2+(-8)^2}=\sqrt{8^2}=8$\\
-			$\bullet$  $\phi = arg(z) = arctan\left(\frac{Im(z)}{Re(z)}\right)$\\
-			\indent \indent In unserem Fall der Winkel $\phi = -\frac{\pi}{2}$, da $x=0$ und $y<0$.\\
-			Also gilt:\\
-			$$-8i=re^{i\phi}$$
-			$$-8i=8e^{-\frac{\pi}{2}i}$$
-			Das heißt also:\\
-			$$z^3=-8i$$
-			$$<=>z^3=8e^{-\frac{\pi}{2}i}$$
-			$$=> r^3 = 8 \hspace{40pt} 3\phi = -\frac{\pi}{2}+2k\pi \mbox{, } k\in \mathbb{Z}$$
-			$$r=\sqrt[3]{8}=2 \hspace{40pt} \phi = -\frac{\pi}{6}+\frac{2k\pi}{3} \mbox{, } k\in \mathbb{Z}$$
-			Für $k=0,1,2$ bekommen wir unsere $3$ verschiedenen Lösungen wie folgendes:\\
-			\indent $k=0$ \hspace{10pt}: \hspace{10pt} $y_0=-\frac{\pi}{6}$ und somit $z_0=2e^{-\frac{\pi}{6}i}$\\
-			\indent $k=1$ \hspace{10pt}: \hspace{10pt} $y_1=-\frac{\pi}{6} + \frac{2\pi}{3}=\frac{3\pi}{6}=\frac{\pi}{2}$ und somit $z_1=2e^{\frac{\pi}{2}i}$\\
-			\indent $k=2$ \hspace{10pt}: \hspace{10pt} $y_2=-\frac{\pi}{6}+\frac{2\times 2 \pi}{3}=-\frac{\pi}{6}+\frac{4\pi}{3}=\frac{7\pi}{6}$ und somit $z_2=2e^\frac{7\pi}{6}i$\\
-			Allgemeine Polardarstellung:\\
-			$$z=r(cos(\phi)+isin(\phi))$$
+				$$z^3 = -8i$$
+				Wir bringen erstmal die Zahl $-8i=0+-8i$ in Eulerdarstellung, der Form $z=re^{i\phi}$.\\
+				$\bullet$  $r=\sqrt{x^2+y^2}=\sqrt{0^2+(-8)^2}=\sqrt{8^2}=8$\\
+				$\bullet$  $\phi = arg(z) = arctan\left(\frac{Im(z)}{Re(z)}\right)$\\
+				\indent \indent In unserem Fall der Winkel $\phi = -\frac{\pi}{2}$, da $x=0$ und $y<0$.\\
+				Also gilt:\\
+				$$-8i=re^{i\phi}$$
+				$$-8i=8e^{-\frac{\pi}{2}i}$$
+				Das heißt also:\\
+				$$z^3=-8i$$
+				$$<=>z^3=8e^{-\frac{\pi}{2}i}$$
+				$$=> r^3 = 8 \hspace{40pt} 3\phi = -\frac{\pi}{2}+2k\pi \mbox{, } k\in \mathbb{Z}$$
+				$$r=\sqrt[3]{8}=2 \hspace{40pt} \phi = -\frac{\pi}{6}+\frac{2k\pi}{3} \mbox{, } k\in \mathbb{Z}$$
+				Für $k=0,1,2$ bekommen wir unsere $3$ verschiedenen Lösungen wie folgendes:\\
+				\indent $k=0$ \hspace{10pt}: \hspace{10pt} $y_0=-\frac{\pi}{6}$ und somit $z_0=2e^{-\frac{\pi}{6}i}$\\
+				\indent $k=1$ \hspace{10pt}: \hspace{10pt} $y_1=-\frac{\pi}{6} + \frac{2\pi}{3}=\frac{3\pi}{6}=\frac{\pi}{2}$ und somit $z_1=2e^{\frac{\pi}{2}i}$\\
+				\indent $k=2$ \hspace{10pt}: \hspace{10pt} $y_2=-\frac{\pi}{6}+\frac{2\times 2 \pi}{3}=-\frac{\pi}{6}+\frac{4\pi}{3}=\frac{7\pi}{6}$ und somit $z_2=2e^\frac{7\pi}{6}i$\\
+				Allgemeine Polardarstellung:\\
+				$$z=r(cos(\phi)+isin(\phi))$$
 \newpage
-			Somit sehen unsere Lösungen wie folgt aus:\\
-			\indent $z_0=2(cos\left(-\frac{\pi}{6}\right)+isin\left(-\frac{\pi}{6}\right))$\\
-			\indent $z_1=2(cos\left(\frac{\pi}{6}\right)+isin\left(\frac{\pi}{6}\right))$\\
-			\indent $z_2=2(cos\left(\frac{7\pi}{6}\right)+isin\left(\frac{7\pi}{6}\right))$\\
-			
+				\noindent Somit sehen unsere Lösungen wie folgt aus:\\
+				\indent $z_0=2(cos\left(-\frac{\pi}{6}\right)+isin\left(-\frac{\pi}{6}\right))$\\
+				\indent $z_1=2(cos\left(\frac{\pi}{6}\right)+isin\left(\frac{\pi}{6}\right))$\\
+				\indent $z_2=2(cos\left(\frac{7\pi}{6}\right)+isin\left(\frac{7\pi}{6}\right))$\\
+			\indent a) \hspace{20pt} ii)\\
+				$$z^4+2(\sqrt{12}-2i)z^2+8-4\sqrt{12}i=0$$
+				$$z^4+2\times z^2(\sqrt{12}-2i)+(\sqrt{12}-2i)^2=0$$
+				Laut der binomischen Formel: $(a+b)^2 = a^2+2ab+b^2$ können wir die Gleichung umformen:\\
+				$$(z^2+\sqrt{12}-2i)^2=0$$
+				$$<=>z^2+\sqrt{12}-2i=0$$
+				$$<=>z^2=-\sqrt{12}+2i$$
+				$-\sqrt{12}+2i$ bringen wir zunächst in Eulerdarstellung.\\
+				$r=\sqrt{x^2+y^2}=\sqrt{(-12)^2+2^2}=\sqrt{12+4}=\sqrt{16}=4$\\
+				$\phi = arg(z) = arctan\left(\frac{Im(z)}{Re(z)}\right) + \pi$, da $x<0$.\\
+				\indent Also $arctan \left( \frac{2}{-\sqrt{12}}\right)+\pi = arctan\left(\frac{2}{-2\sqrt{3}}\right)+\pi = arctan \left(-\frac{\sqrt{3}}{3}\right)+\pi = -\frac{\pi}{6}+\pi = \frac{5\pi}{6}$\\
+				Also gilt:
+				$$-\sqrt{12}+2i=4e^{i\frac{5\pi}{6}}$$
+				$z^2$ in Eulerdarstellung: $z^2=(re^{i\phi})^2=r^2e^{i2\phi}$\\
+				Also gilt:\\
+				$$z^2=-\sqrt{12}+2i$$
+				$$<=>r^2e^{i2\phi}=4e^{i\frac{5\pi}{6}}$$
+				$$=> r^2 =4 \hspace{20pt} \mbox{und} \hspace{20pt} 2\phi = \frac{5\pi}{6}+2k\pi \mbox{, } k\in\mathbb{Z}$$
+				$$r=2 \hspace{45pt} \phi = \frac{5\pi}{12}+k\pi \mbox{, } k\in\mathbb{Z}$$
+				Also für $k=0,1$ bekommen wir unsere 2 verschiedene Lösungen wie folgendes:\\
+				\indent $k=0$: \hspace{10pt} $\phi _0 = \frac{5\pi}{12}$ und somit $z_0= 2e^{\frac{5\pi}{12}i}$\\
+				\indent $k=1$: \hspace{10pt} $\phi _1 = \frac{5\pi}{12} + \pi = \frac{17\pi}{12}$ und somit $z_1=2e^{\frac{17\pi}{12}i}$\\
+				Allgemeine Polardarstellung:\\
+				$$z=r(cos(\phi)+isin(\phi))$$
+				Somit sehen unsere Lösungen wie folgt aus:
+				\indent $z_0=2(cos(\frac{5\pi}{12}+isin(\frac{5\pi}{12})$
+				\indent $z_1=2(cos(\frac{17\pi}{12}+isin(\frac{17\pi}{12})$
 \end{document}
