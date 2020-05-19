@@ -5,6 +5,7 @@
 \usepackage{amssymb}
 \usepackage{tikz}
 \usepackage{amsmath}
+\usepackage{polynom}
 
 \begin{document}
 	\noindent \begin{huge}Haitham Abdel Razaq Moh'd Almatani  407920
@@ -97,4 +98,28 @@
 				$$z=\left(\frac{\sqrt{2}}{2}\times \frac{\sqrt{3}}{2}\right)-\left(\frac{\sqrt{2}}{2}\times \frac{1}{2}\right)+i\left(\frac{\sqrt{2}}{2}\times \frac{\sqrt{3}}{2}+\frac{\sqrt{2}}{2}\times \frac{1}{2}\right)$$
 				$$z=\frac{\sqrt{6}}{4}-\frac{\sqrt{2}}{4}+i\left(\frac{\sqrt{6}}{4}+\frac{\sqrt{2}}{4}\right)$$
 				$$z=\frac{\sqrt{6}-\sqrt{2}}{4}+i\left(\frac{\sqrt{6}+\sqrt{2}}{4}\right) \mbox{in kartesische Darstellung}$$
+		\noindent \begin{Large}Aufgabe 2:\end{Large}\\[2pt]
+				$$p(z)=z^4+z^3+3z^2+4z-4$$
+			\indent a)\\
+				$$p(2i)=(2i)^4+(2i)^3+3(2i)^2+4(2i)-4$$
+				$$=2^4\cdot i^4+2^3\cdot i^3+3\cdot 4i^2+8i-4$$
+				$$=16(1) +8(-1)+12(-1)+8i-4$$
+				$$=16-12-4+8i-8i$$
+				$$=0$$
+			\indent b)\\
+				$$q(z)=z^2+4$$
+				\polyset{vars=z}
+				\polylongdiv[style=B]{z^4+z^3+3z^2+4z-4}{z^2+4}\\
+			\indent c)\\
+				Bestimmung der Nullstellen von $z^2+z-1$ mit Anwendung der $p-q$ Formel:\\
+				$$z^2+4 =0 \hspace{120pt} z^2+z-1=0$$
+				$$z^2=-4 \hspace{80pt} z_{1,2}=-\frac{p}{2}\pm \sqrt{\left(\frac{p}{2}\right)^2-q}$$
+				$$z=\pm\sqrt{4} \hspace{90pt} =-\frac{1}{2}\pm \sqrt{\left(\frac{1}{2}\right)^2+1}$$
+				$$z=\pm \sqrt{4i^2} \hspace{120pt} =-\frac{1}{2}\pm \sqrt{\frac{5}{4}}$$
+				$$z=\pm 2i \hspace{140pt} -\frac{1}{2} \pm \frac{\sqrt{5}}{2}$$
+				Also die komplexe Linearfaktorzerlegung von $p(z)$:\\
+				$$p(z)=z^4+z^3+3z^2+4z-4=(z-2i)(z+2i)(z-\left(-\frac{1}{2}+\frac{\sqrt{5}}{2}\right))(z-\left(-\frac{1}{2}-\frac{\sqrt{5}}{2}\right))$$
+			\indent d)\\
+				Die reelle Zerlegung von $p(z)$:\\
+				$$p(z)=z^4+z^3+3z^2+4z-4=(z^2+4)(z-\left(-\frac{1}{2}+\frac{\sqrt{5}}{2}\right))(z-\left(-\frac{1}{2}-\frac{\sqrt{5}}{2}\right))$$
 \end{document}
