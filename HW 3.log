@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.4)  20 MAY 2020 01:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.4)  20 MAY 2020 17:37
 entering extended mode
 **"./HW 3.tex"
 ("HW 3.tex"
@@ -638,11 +638,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--124
 
  []
 
-[5] ("HW 3.aux") ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--129
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 137--139
+
+ []
+
+[6] ("HW 3.aux") ) 
 Here is how much of TeX's memory you used:
  12900 strings out of 480930
  258351 string characters out of 2896479
- 473826 words of memory out of 3000000
+ 473827 words of memory out of 3000000
  28557 multiletter control sequences out of 15000+200000
  537583 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -663,9 +678,9 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Кирилл/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users
 /Кирилл/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/sym
 bols/msbm10.pfb>
-Output written on "HW 3.pdf" (5 pages, 136886 bytes).
+Output written on "HW 3.pdf" (6 pages, 140995 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
+ 72 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
