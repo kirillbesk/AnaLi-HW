@@ -147,7 +147,8 @@
 				$$=\frac{4x_16}{x^2-6x+13}$$
 		\noindent \begin{Large}Aufgabe 3:\end{Large}\\[2pt]
 			\indent a)\\
-				$$\frac{11x+18}{x^2+x-6}$$
+				$$\frac{11x+18}{x^2+x-6}=\frac{p(x)}{q(x)}$$
+				$1=deg(p)<deg(q)=2$, also keine Polynomdivision nötig.\\
 				Bestimme die Nullstellen des Nenner mit p-q Formel:\\
 				$$x_{1,2}=-\frac{p}{2}\pm \sqrt{\left(\frac{p}{2}\right)^2-q}$$
 				$$-\frac{1}{2}\pm\sqrt{\frac{1}{4}+6}$$
@@ -165,4 +166,56 @@
 				Durch Koeffizientenvergleich erhalten wir:\\
 				$$x^1 \mbox{ : } \hspace{20pt} 11=A+B=>A=11-B \hspace{10pt} \mbox{\circled{1}}$$
 				$$x^0 \mbox{ : } \hspace{20pt} 18=3A-2B \hspace{10pt} \mbox{\circled{2}}$$
+				\indent \circled{1} in \circled{2}: \hspace{50pt} $18=3(11-B)-2B$
+				$$18=33-3B-2B$$
+				$$33-18=5B$$
+				$$B=\frac{33-18}{5}$$
+				$$B=\frac{15}{5}=>B=3$$
+				\indent $B=3$ in \circled{1}:\\
+				$$A=11-3$$
+				$$A=8$$
+				In unserem Fall reelle und komplexe Partialbruchzerlegung stimmen überein und somit ist:\\
+				$$\frac{11x+18}{x^2+x-6}=\frac{8}{x-2}+\frac{3}{x+3}$$
+			\indent b)\\
+				$$\frac{x^3-4x^2-2x+17}{x^2-6x+9}$$
+				Sei $p(x)=x^3-4x^2-2x+17$\\
+				und $q(x)=x^2-6x+9$\\
+				Da $3=deg(p)>deg(q)=2$ ist hier eine Polynomdivision notwendig.\\
+				\polyset{vars=x}
+				\polylongdiv[style=B]{x^3-4x^2-2x+17}{x^2-6x+9}\\
+				Also:\\
+				$$\frac{x^3-4x^2-2x+17}{x^2-6x+9}=\frac{(x+2)(x^2-6x+9)+x-1}{x^2-6x+9}=x+2+\frac{x-1}{x^2-6x+9}$$
+				Das heißt also, wir müssen nun die Partialbruchzerlegung für $\frac{x-1}{x^2-6x+9}$ bestimmen.
+				$\frac{x-1}{x^2-6x+9}=\frac{x-1}{(x-3)^2}$ \hspace{10pt} Das heißt also, wir haben die Nullstelle 3 mit Vielfachheit 2.\\
+				Der Ansatz für die Partialbruchzerlegung:\\
+				$$\frac{x-1}{(x-3)^2}=\frac{A}{x-3}+\frac{B}{(x-3)^2} \hspace{10pt} \mybar \times (x-3)^2$$
+				$$=>x-1=A9x-3)+B$$
+				$$x-1=Ax+B-3A$$
+				Durch Koeffizientenvergleich:\\
+				\indent $x^1$: $1=A$ \circled{1}\\
+				\indent $x^0$: $-1=B-3A$ \circled{2}\\
+				\circled{1} in \circled{2}: $-1=B-3(1) => B=2$\\
+				In unserem Fall stimmen wieder reelle und komplexe Partialbruchzerlegung überein mit:\\
+				$$\frac{x^3-4x^2-2x+17}{x^2-6x+9}=x+2+\frac{1}{x-3}+\frac{2}{(x-3)^2}$$
+			\indent c)\\
+				$$\frac{2x^2-2x-1}{x^3+2x}=\frac{p(x)}{q(x)}$$
+				Keine Polynomdivision nötig, da $2=deg(p)<deg(q)=3$.\\
+				$$\frac{2x^2-2x-1}{x^3+2x}=\frac{2x^2-2x-1}{x(x^2+2)}$$
+				Bestimmung der Bullstellen des Nenners $x^2+2$:\\
+				$$x^2+2=0$$
+				$$x^2=-2$$
+				$$x^2=2i^2$$
+				$$x=\pm \sqrt{2}i$$
+				Also gilt:\\
+				$$\frac{2x^2-2x-1}{x(x^2+2)}=\frac{2x^2-2x-1}{x(x-\sqrt{2}i)(x+\sqrt{2}i)}$$
+				Der Anzatz für die komplexe Partialbruchzerlegung ist:\\
+				$$\frac{2x^2-2x-1}{x(x-\sqrt{2}i)(x+\sqrt{2}i)}=\frac{A}{x}+\frac{B}{x-\sqrt{2}i}+\frac{C}{x+\sqrt{2}i}$$
+				Bestimmung der Koeffizienten $A,B,C$ mithilfe der Zuhaltungsmethode:\\
+				$$A=\frac{2 \cdot 0^2-1}{(0-\sqrt{2}i)(0+\sqrt{2}i)}=\frac{-1}{-\sqrt{2}^2i^2}=-\frac{1}{2}$$
+				$$B=\frac{2 \cdot (\sqrt{2}i)^2-2\sqrt{2}i-1}{\sqrt{2}i \cdot 2 \cdot \sqrt{2}i}=\frac{-4-2\sqrt{2}i-1}{2 \cdot 2 \cdot i^2}=\frac{-5-2\sqrt{2}i}{-4}$$
+				$$=>B=\frac{5}{4}+\frac{1}{2}\sqrt{2}i$$
+				$$C=\frac{2(-\sqrt{2}i)^2-2(-\sqrt{2}i)-1}{(-\sqrt{2}i)(-2\sqrt{2}i)}=\frac{2(-2)+2\sqrt{2}i-1}{2\sqrt{2}^2i^2}=\frac{-5+2\sqrt{2}i}{-2 \cdot 2}=\frac{-(5-2\sqrt{2}i)}{-4}$$
+				$$=>C=\frac{5}{4}-\frac{1}{2}\sqrt{2}i$$
+				Damit ist die komplexe Partialbruchzerlegung:\\
+				$$\frac{2x^2-2x-1}{x^3+2x}=\frac{-\frac{1}{2}}{x}+\frac{\frac{5}{4}+\frac{1}{2} \cdot \sqrt{2}i}{x-\sqrt{2}i}+\frac{\frac{5}{4}-\frac{1}{2}\sqrt{2}i}{x+2\sqrt{2}i}$$
 \end{document}
