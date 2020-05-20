@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.4)  20 MAY 2020 19:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.4)  20 MAY 2020 20:02
 entering extended mode
 **"./HW 3.tex"
 ("HW 3.tex"
@@ -573,12 +573,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--71
 
  []
 
-
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 71--76
 
  []
 
-[2]
+
 Underfull \hbox (badness 10000) in paragraph at lines 78--80
 
  []
@@ -589,7 +589,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--93
  []
 
 [3]
-Overfull \hbox (67.2053pt too wide) detected at line 101
+Overfull \hbox (67.2053pt too wide) detected at line 100
 \OML/cmm/m/it/10.95 z \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 cos [] \OMS/cmsy
 /m/n/10.95  \OML/cmm/m/it/10.95 cos [] \OMS/cmsy/m/n/10.95   \OML/cmm/m/it/10.
 95 sin [] \OMS/cmsy/m/n/10.95  \OML/cmm/m/it/10.95 sin [] \OT1/cmr/m/n/10.95 +
@@ -597,32 +597,32 @@ Overfull \hbox (67.2053pt too wide) detected at line 101
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
+Underfull \hbox (badness 10000) in paragraph at lines 103--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 112--114
+Underfull \hbox (badness 10000) in paragraph at lines 111--113
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--119
+Underfull \hbox (badness 10000) in paragraph at lines 113--118
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 123--125
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
 
  []
 
 
-Overfull \hbox (12.98598pt too wide) detected at line 125
+Overfull \hbox (12.98598pt too wide) detected at line 124
 \OML/cmm/m/it/10.95 p\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 z\OT1/cmr/m/n/10.9
 5 ) = \OML/cmm/m/it/10.95 z[] \OT1/cmr/m/n/10.95 + \OML/cmm/m/it/10.95 z[] \OT1
 /cmr/m/n/10.95 + 3\OML/cmm/m/it/10.95 z[] \OT1/cmr/m/n/10.95 + 4\OML/cmm/m/it/1
@@ -634,148 +634,148 @@ Overfull \hbox (12.98598pt too wide) detected at line 125
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--128
+Underfull \hbox (badness 10000) in paragraph at lines 124--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--131
+Underfull \hbox (badness 10000) in paragraph at lines 127--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--133
+Underfull \hbox (badness 10000) in paragraph at lines 130--132
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 141--143
+Underfull \hbox (badness 10000) in paragraph at lines 140--142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--150
+Underfull \hbox (badness 10000) in paragraph at lines 146--149
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--153
+Underfull \hbox (badness 10000) in paragraph at lines 149--152
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--157
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 156--158
+Underfull \hbox (badness 10000) in paragraph at lines 158--160
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--161
+Underfull \hbox (badness 10000) in paragraph at lines 164--166
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--167
+Underfull \hbox (badness 10000) in paragraph at lines 172--174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--175
+Underfull \hbox (badness 10000) in paragraph at lines 175--177
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 176--178
+Underfull \hbox (badness 10000) in paragraph at lines 177--179
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 178--180
+Underfull \hbox (badness 10000) in paragraph at lines 179--186
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--187
+Underfull \hbox (badness 10000) in paragraph at lines 186--190
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--191
+Underfull \hbox (badness 10000) in paragraph at lines 192--198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--199
+Underfull \hbox (badness 10000) in paragraph at lines 198--200
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--202
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 199--201
+Underfull \hbox (badness 10000) in paragraph at lines 202--204
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--203
+Underfull \hbox (badness 10000) in paragraph at lines 207--209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--205
+Underfull \hbox (badness 10000) in paragraph at lines 209--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--210
+Underfull \hbox (badness 10000) in paragraph at lines 211--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 210--212
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 212--214
-
- []
-
-
-Overfull \hbox (30.39621pt too wide) detected at line 217
+Overfull \hbox (30.39621pt too wide) detected at line 216
 \OML/cmm/m/it/10.95 C \OT1/cmr/m/n/10.95 = [] = [] = [] = []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--220
+Underfull \hbox (badness 10000) in paragraph at lines 217--219
 
  []
 
-[9] [10] ("HW 3.aux") ) 
+[9] ("HW 3.aux") ) 
 Here is how much of TeX's memory you used:
  12953 strings out of 480930
  259600 string characters out of 2896479
- 473927 words of memory out of 3000000
+ 472927 words of memory out of 3000000
  28610 multiletter control sequences out of 15000+200000
  537583 words of font info for 44 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,9n,60p,410b,602s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Кирилл/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Кирилл/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Кир
-илл/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.p
-fb><C:/Users/Кирилл/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmmi8.pfb><C:/Users/Кирилл/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Кирилл/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Кири�
-�л/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-<C:/Users/Кирилл/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmr6.pfb><C:/Users/Кирилл/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Кирилл/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Кирилл/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/
-Users/Кирилл/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/symbols/msbm10.pfb>
-Output written on "HW 3.pdf" (10 pages, 153037 bytes).
+ 60i,11n,60p,410b,602s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Кирилл/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Кирилл/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Кирил�
+�/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C
+:/Users/Кирилл/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmmi8.pfb><C:/Users/Кирилл/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Кирилл/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Кирилл/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/U
+sers/Кирилл/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr6.pfb><C:/Users/Кирилл/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb><C:/Users/Кирилл/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Кирилл/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users
+/Кирилл/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/sym
+bols/msbm10.pfb>
+Output written on "HW 3.pdf" (9 pages, 152255 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
+ 83 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
