@@ -7,6 +7,10 @@
 \usepackage{amsmath}
 \usepackage{polynom}
 
+\newcommand\mybar{\kern1pt\rule[-\dp\strutbox]{.8pt}{\baselineskip}\kern1pt}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
+
 \begin{document}
 	\noindent \begin{huge}Haitham Abdel Razaq Moh'd Almatani  407920
 	
@@ -140,4 +144,25 @@
 				$$=\frac{(2+i)(x-(3-2i))+(2-i)(x-(3+2i))}{(x-(3+2i))(x-(3-2i))}$$
 				$$=\frac{(2+i)(x-3+2i)+(2-i)(x-3-2i)}{(x-3-2i)(x-3+2i)}$$
 				$$=\frac{2x-6+4i+xi-3i-2+2x-6-4i-xi+3i-2}{x^2-3x+2xi-3x+9-6i-2xi+6i+4}$$
+				$$=\frac{4x_16}{x^2-6x+13}$$
+		\noindent \begin{Large}Aufgabe 3:\end{Large}\\[2pt]
+			\indent a)\\
+				$$\frac{11x+18}{x^2+x-6}$$
+				Bestimme die Nullstellen des Nenner mit p-q Formel:\\
+				$$x_{1,2}=-\frac{p}{2}\pm \sqrt{\left(\frac{p}{2}\right)^2-q}$$
+				$$-\frac{1}{2}\pm\sqrt{\frac{1}{4}+6}$$
+				$$-\frac{1}{2}\pm\sqrt{\frac{25}{4}}$$
+				$$-\frac{1}{2}\pm\frac{5}{2}$$
+				Also:\\
+				$$x_1=-\frac{1}{2}+\frac{5}{2}=2$$
+				$$x_2=-\frac{1}{2}-\frac{5}{2}=-3$$
+				Also gilt:\\
+				$$\frac{11x+18}{x^2+x-6}=\frac{11x+18}{(x-2)(x+3)}$$
+				$$\frac{11x+18}{(x-2)(x+3)}=\frac{A}{x-2}+\frac{B}{x+3} \hspace{20pt} \mybar \times (x-2)(x+3)$$
+				$$<=>11x+18=\frac{A(x-2)(x+3)}{(x-2)}+\frac{B(x-2)(x+3)}{(x+3)}$$
+				$$<=>11x+18=Ax+3A+Bx-2B$$
+				$$<=>11x+18=(A+B)x+3A-2B$$
+				Durch Koeffizientenvergleich erhalten wir:\\
+				$$x^1 \mbox{ : } \hspace{20pt} 11=A+B=>A=11-B \hspace{10pt} \mbox{\circled{1}}$$
+				$$x^0 \mbox{ : } \hspace{20pt} 18=3A-2B \hspace{10pt} \mbox{\circled{2}}$$
 \end{document}
