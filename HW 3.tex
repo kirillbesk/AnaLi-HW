@@ -217,4 +217,19 @@
 				$$=>C=\frac{5}{4}-\frac{1}{2}\sqrt{2}i$$
 				Damit ist die komplexe Partialbruchzerlegung:\\
 				$$\frac{2x^2-2x-1}{x^3+2x}=\frac{-\frac{1}{2}}{x}+\frac{\frac{5}{4}+\frac{1}{2} \cdot \sqrt{2}i}{x-\sqrt{2}i}+\frac{\frac{5}{4}-\frac{1}{2}\sqrt{2}i}{x+2\sqrt{2}i}$$
+				Der Ansatz für die reelle Partialbruchzerlegung lautet:\\
+				$$\frac{2x^2-2x-1}{x^3+2x}=\frac{A}{x}+\frac{Bx+C}{x^2+2} \hspace{10pt} \mybar \times x(x^2+2)$$
+				$$=>2x^2-2x-1=A(x^2+2)+(Bx+C)\times x$$
+				$$<=>2x^2-2x-1=Ax^2+2A+Bx^2+Cx$$
+				$$<=>2x^2-2x-1=(A+B)x^2+Cx+2A$$
+				Koeffizientenvergleich:\\
+				\indent $x^2$: $2=A+B$ \hspace{70pt} \circled{1}\\
+				\indent $x^1$: $-2=C$ \hspace{80pt} \circled{2}\\
+				\indent $x^0$: $-1=2A=>A=-\frac{1}{2}$ \hspace{20pt}\circled{3}\\
+				\circled{3} in \circled{1} einsetzen:\\
+				$$2=A+B$$
+				$$B=2-A$$
+				$$B=2-(-\frac{1}{2})=2+\frac{1}{2}=\frac{5}{2}$$
+				Somit ist die reelle Partialbruchzerlegung:
+				$$\frac{2x^2-2x-1}{x^3+2x}=\frac{-\frac{1}{2}}{x}+\frac{\frac{5}{2}x-2}{x^2+2}$$
 \end{document}
