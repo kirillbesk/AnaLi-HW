@@ -1,0 +1,67 @@
+\documentclass[11pt]{article}
+
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usepackage{amsmath}
+
+\DeclareRobustCommand{\brkbinom}{\genfrac[]{0pt}{}}
+
+\begin{document}
+	\noindent \begin{huge}Haitham Abdel Razaq Moh'd Almatani  407920\\
+	
+	\noindent Themistoklis Dimaridis 355835\\
+	
+	
+	\noindent Kirill Beskorovainyi 	451420\end{huge}\\\vspace{0.05in}
+	
+		\noindent \begin{Large}Aufgabe 1:\end{Large}\\[2pt]
+			\indent a)\\
+				$$T_1= \left\{\brkbinom{a}{b} \in \mathbb{R}^2 \mid 2x_1=x_2 \right\} \hspace{30pt} T_2= \left\{\brkbinom{a}{b} \in \mathbb{R}^2 \mid x_1^3+x_2^3=1 \right\}$$
+				Wir verwenden das Teilraum kriterium. $T_1$, $T_2$ sind Teilräume des $\mathbb{R}^2$, falls diese den Nullvektor enthalten und abgeschlossen bezüglich Addition und skalarer Multiplikation sind.\\
+				\underline{Über $T_1$ gilt:}\\
+				\indent $\bullet$ $\vec{0}=\brkbinom{0}{0} \in T_1$, da $2 \cdot 0 = 0$\\
+				\indent $\bullet$ Für $\brkbinom{x_1}{x_2}$, $\brkbinom{y_1}{y_2} \in T_1$ ist $x_2=2x_1$ und $y_2=2y_1$\\ 
+				Dann gilt: $\brkbinom{x_1}{x_2}+\brkbinom{y_1}{y_2}=\brkbinom{x_1+y_1}{x_2+y_2}$ mit\\
+				$$x_2+y_2=2x_1+2y_1=2(x_1+y_1)$$
+				Also ist $\brkbinom{x_1}{x_2}+\brkbinom{y_1}{y_2} \in T_1$ und damit ist $T_1$ abgeschlossen bezüglich der Addition.\\
+				\indent $\bullet$ Sei $\brkbinom{x_1}{x_2} \in T_1$, $\alpha \in \mathbb{R}$. Dann gilt per Definition:\\
+				$$x_2=2x_1$$
+				Also ist für $\alpha \brkbinom{\alpha x_1}{\alpha x_2}$, dass $\alpha x_2=\alpha (2x_1)=2(\alpha x_1)$\\
+				Damit ist $\alpha \brkbinom{x_1}{x_2} \in T_1$ und $T_1$ ist auch abgeschlossen bezüglich skalarer Multiplikation.\\
+				Damit ist $T_1$ ein Teilraum des $\mathbb{R}^2$.\\
+				\underline{Über $T_2$ gilt:}\\
+				\indent $\bullet$ $\vec{0}=\brkbinom{0}{0} \notin T_1$, da $0^3+0^3=0 \neq 1$\\
+				$=>$ Somit ist der Nullvektor nicht in $T_2$ enthalten und damit ist $T_2$ kein Teilraum des $\mathbb{R}^2$.\\
+\newpage
+			\indent b)\\
+				$$V=\{f: \mathbb{R} \longrightarrow \mathbb{R}\}$$
+				$$T=\{f: \mathbb{R} \longrightarrow \mathbb{R} \mid f(1)=0\}$$
+				Wir verwenden wieder das im Aufgabenteil a) erwähnte Teilraumkriterium.\\
+				\indent $\bullet$ $\vec{0} \in T$, da $f(1)$ ist auf $0$ abgebildet\\
+				\indent $\bullet$ Seinen $f(1)$ und $g(1)$ $\in T$ mit $f(1)=0$ und $g(1)=0$.\\
+				Dann gilt: $$f(1)+g(1)= 0+0=0$$\\
+				Somit ist $f(1)+g(1) \in T$ und damit $T$ ist abgeschlossen bezüglich der Addition.\\
+				\indent $\bullet$ Seinen $f(1) \in T$ und $\alpha \in \mathbb{R}$. Dann gilt:\\
+				$$f(1)=0 \hspace{20pt} \text{und} \hspace{20pt} \alpha f(1)= \alpha \cdot 0 = 0 \text{, für alle } \alpha \in \mathbb{R}$$
+				Somit ist $T$ abgeschlossen bezüglich skalarer Multiplikation und da slle Bedingungen erfüllt sind, ist $T$ ein Teilraum von $V$.\\
+		\noindent \begin{Large}Aufgabe 2:\end{Large}\\[2pt]
+			\indent a)\\
+				Die Vektoren sind nur dann linear unabhängeg, wenn für alle $\lambda_1 \lambda_2 \lambda_3 \in \mathbb{R}$, die folgende Gleichung\\
+				$$\lambda_1 \begin{bmatrix}1\\1\\0\end{bmatrix} +
+				\lambda_2 \begin{bmatrix}1\\0\\1\end{bmatrix} +
+				\lambda_3 \begin{bmatrix}0\\1\\-1\end{bmatrix} = \begin{bmatrix}0\\0\\0\end{bmatrix}$$
+				die nür triviale Lösung: $\lambda_1=\lambda_2=\lambda_3=0$ hat.\\
+				$$\lambda_1 \begin{bmatrix}1\\1\\0\end{bmatrix} +
+				\lambda_2 \begin{bmatrix}1\\0\\1\end{bmatrix} +
+				\lambda_3 \begin{bmatrix}0\\1\\-1\end{bmatrix} = \begin{bmatrix}0\\0\\0\end{bmatrix}$$
+				$$<=> \begin{bmatrix}\lambda_1\\\lambda_1\\0\end{bmatrix} +
+				\begin{bmatrix}\lambda_2\\0\\\lambda_2\end{bmatrix} +
+				\begin{bmatrix}0\\\lambda_3 \\-\lambda_3 \end{bmatrix} = \begin{bmatrix}0\\0\\0\end{bmatrix}$$
+				$$<=>\begin{bmatrix}\lambda_1+\lambda_2\\\lambda_1+\lambda_3\\\lambda_2-\lambda_3\end{bmatrix}=\begin{bmatrix}0\\0\\0\end{bmatrix}$$
+				$$=>\lambda_1+\lambda_2=0=>\lambda_1=-\lambda_2$$
+				$$\lambda_1+\lambda_3=0=>\lambda_1=-\lambda_3$$
+				$$\lambda_2-\lambda_3=0=>\lambda_2=\lambda_3$$
+				Da wir 
+\end{document}
