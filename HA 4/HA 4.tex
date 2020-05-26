@@ -6,6 +6,8 @@
 \usepackage{tikz}
 \usepackage{amsmath}
 
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
 \DeclareRobustCommand{\brkbinom}{\genfrac[]{0pt}{}}
 
 \begin{document}
@@ -48,7 +50,7 @@
 				Somit ist $T$ abgeschlossen bezüglich skalarer Multiplikation und da slle Bedingungen erfüllt sind, ist $T$ ein Teilraum von $V$.\\
 		\noindent \begin{Large}Aufgabe 2:\end{Large}\\[2pt]
 			\indent a)\\
-				Die Vektoren sind nur dann linear unabhängeg, wenn für alle $\lambda_1 \lambda_2 \lambda_3 \in \mathbb{R}$, die folgende Gleichung\\
+				Die Vektoren sind nur dann linear unabhängig, wenn für alle $\lambda_1 \lambda_2 \lambda_3 \in \mathbb{R}$, die folgende Gleichung\\
 				$$\lambda_1 \begin{bmatrix}1\\1\\0\end{bmatrix} +
 				\lambda_2 \begin{bmatrix}1\\0\\1\end{bmatrix} +
 				\lambda_3 \begin{bmatrix}0\\1\\-1\end{bmatrix} = \begin{bmatrix}0\\0\\0\end{bmatrix}$$
@@ -63,5 +65,57 @@
 				$$=>\lambda_1+\lambda_2=0=>\lambda_1=-\lambda_2$$
 				$$\lambda_1+\lambda_3=0=>\lambda_1=-\lambda_3$$
 				$$\lambda_2-\lambda_3=0=>\lambda_2=\lambda_3$$
-				Da wir 
+				Da wir zum Beispiel keine eindeutige Auskunft für $\lambda_1$ haben hat das obige LGS nicht nur die Einzige triviale Lösung $\lambda_1=\lambda_2=\lambda_3=0$.\\
+				Deswegen sind unsere Vektoren linear abhängig.\\\
+			\indent b)\\
+					Wir überprufen die Definition\\
+					Sei $\alpha_1$, $\alpha_2$, $\alpha_3$, $\alpha_4$ $\in \mathbb{R}$\\
+					$$\alpha_1 p_1(z)+\alpha_2 p_2(z)+\alpha_3 p_3(z)+\alpha_4 p_4(z)=0$$
+					$$=>\alpha_1+\alpha_2z+2\alpha_3z^3-\alpha_3+4\alpha_4z^3-3\alpha_4z=0$$
+					$$4\alpha_4z^3+2\alpha_3z^2+(\alpha_2-3\alpha_4)z+(\alpha_1-\alpha_3)=0$$
+					Wir vergleichen die Koeffizienten:
+					$$4\alpha_4=0 \hspace{10pt} => \hspace{10pt} \alpha_4=0$$
+					$$2\alpha_3=0 \hspace{10pt} => \hspace{10pt} \alpha_3=0$$
+					$$\alpha_2-3\alpha_4=0 \hspace{10pt} => \hspace{10pt} \alpha_2=0$$
+					$$\alpha_1-\alpha_3=0 \hspace{10pt} => \hspace{10pt} \alpha_1=0$$
+					Somit ist $\alpha_1=\alpha_2=\alpha_3=\alpha_4=0$ die einzige Lösung.\\
+					Damit sind $p_1(z)$, $p_2(z)$, $p_3(z)$, $p_4(z)$ linear unabhängig.\\
+				\indent c)\\
+					Seien $\lambda_1$, $\lambda_2$ $\in \mathbb{R}$ sodass:\\
+					$$0=\lambda_1 \cdot f_1(x)+\lambda_2 \cdot f_2(x)$$
+					$$<=>0=\lambda_1 \cdot cos(x)+\lambda_2 \cdot cos(2x)$$
+					Für spezielle $x$ können wir etwas über $\lambda_1$, $\lambda_2$ herausfinden.\\
+					\underline{Für $x=\frac{\pi}{2}$}:\\
+					$$0=\lambda_1 \cdot cos \left(\frac{\pi}{2}\right)+\lambda_2 \cdot cos\left(2\frac{\pi}{2}\right)$$
+					$$<=>0=\lambda_1 \cdot 0 - \lambda_2$$
+					$$<=>\lambda_2=0$$
+					\underline{Für $x=\frac{\pi}{4}$}:\\
+					$$0=\lambda_1 \cdot cos \left(\frac{\pi}{4}\right)+\lambda_2 \cdot cos\left(2\frac{\pi}{4}\right)$$
+					$$0=\lambda_1 \cdot \frac{\sqrt{2}}{2}+\lambda_2 \cdot 0$$
+					$$\lambda_1=0$$
+					Also Gleichungen:\\
+					$$\circled{1} \hspace{10pt} \lambda_2=0$$
+					$$\circled{2} \hspace{10pt} \lambda_1=0$$
+					Also $\lambda_1=\lambda_2=0$ ist die einzige Lösung des LGS und somit sind $cos(x)$ und $cos(2x)$ linear unabhängig.\\
+			\noindent \begin{Large}Aufgabe 3:\end{Large}\\[2pt]
+				\indent a)\\
+					$$\brkbinom{x}{y}=\alpha \cdot \brkbinom{1}{0}$$
+					$$<=>\brkbinom{x}{y}=\brkbinom{\alpha \cdot 1}{\alpha \cdot 0}$$
+					$$=>x=\alpha \cdot 1 => x=\alpha$$
+					$$=>y=\alpha \cdot 0 => y= x \cdot 0 => y \neq 0$$
+					Deswegen $\left\{ \brkbinom{1}{0} \right\}$ ist nicht ein Erzeugendensystem von $\mathbb{R}^2$.\\
+				\indent b)\\
+					$$\brkbinom{x}{y}=\lambda_1 \brkbinom{2}{1}+\lambda_2 \brkbinom{0}{0}+\lambda_3 \brkbinom{1}{1}+\lambda_4 \brkbinom{0}{1}$$
+					$$x=2\lambda_1+\lambda_3 => x=2x-x$$
+					$$<=>\lambda_1=x \hspace{40pt} \lambda_3=-x$$
+					$$y=\lambda_1+\lambda_3+\lambda_4$$
+					$$=>y=x-x+\lambda_4 => \lambda_4=y$$
+					$$=x \brkbinom{2}{1}+0 \brkbinom{0}{0}-x \brkbinom{1}{1}+y \brkbinom{0}{1}$$
+				\indent c)\\
+					$$\brkbinom{x}{y}=x\brkbinom{1}{1}+(y-x)\brkbinom{0}{1}$$
+					$$\brkbinom{1}{0}=1 \cdot \brkbinom{1}{1}+(0-1) \cdot \brkbinom{0}{1}=\brkbinom{1}{1}-\brkbinom{0}{1}=\brkbinom{1}{0}$$
+			\noindent \begin{Large}Aufgabe 4:\end{Large}\\[2pt]
+				\indent a)\\
+					Die Addition zweier Matrizen ist nur möglich wenn die Anzahl der Zeilen und Spalten der beiden Matrizen übereinstimmen.\\
+					Das heißt also A+C ist m
 \end{document}
