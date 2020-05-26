@@ -160,5 +160,15 @@
 					$$A^4=A^3\cdot A=\begin{bmatrix}0&1\\-1&0\end{bmatrix}\cdot\begin{bmatrix}0&-1\\1&0\end{bmatrix}=\begin{bmatrix}1&0\\0&1\end{bmatrix}$$
 					$$A \text{ ist invertierbar, da } A\cdot A^{-1}=I \text{, wo } A^{-1}=A^3$$
 				\indent b)\\
-					$$A^5=A \hspace{20pt} A^6=A^2 \hspace{20pt} A^7=A^3 \hspace{20pt} A^8=A^4 \hspace{20pt} A^9=A^5=A \hspace{20pt} A^10=A^6=A^2$$
+					$$A^5=A \hspace{20pt} A^6=A^2 \hspace{20pt} A^7=A^3 \hspace{20pt} A^8=A^4 \hspace{20pt} A^9=A^5=A \hspace{20pt} A^{10}=A^6=A^2$$
+					$$A^4=I \hspace{20pt} A^3=A^{-1}$$
+					$$\text{span}\{A,A^2,A^3,...,A^{10}\}=\text{span}\{A,A^2,A^3,A^4,A,A^2,A^3,A^4,A,A^2\}$$
+					$$T=\text{span}\{A,A^2\}=\text{span}\{A,I_2\}$$
+					Nach Definition von span bilden $A$,$I_2$ ein EZS von T.\\
+					$$\lambda_1\cdot A+\lambda_2\cdot I_2=\begin{bmatrix}0&-\lambda_1\\\lambda_1&0\end{bmatrix}+\begin{bmatrix}\lambda_2&0\\0&\lambda_2\end{bmatrix}=\begin{bmatrix}\lambda_2&-\lambda_1\\\lambda_1&\lambda_2\end{bmatrix}$$
+					$$\begin{bmatrix}\lambda_2&-\lambda_1\\\lambda_1&\lambda_2\end{bmatrix}=\begin{bmatrix}0&0\\0&0\end{bmatrix}$$
+					$$=>\lambda_1=0$$
+					$$=>\lambda_2=0$$
+					Somit ist $\{A,I_2\}$ ist ein liner unabhängig Erzeugendensystem von T. Das heißt $\{A,I_2\}$ ist ein Basis von T
+					Da $A,I_2$ Dimension von $2\times 2$ hat, ist die Dimension von Basis von $A,I_2$ ist auch $2\times2$.\\
 \end{document}
