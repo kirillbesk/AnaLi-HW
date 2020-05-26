@@ -6,6 +6,8 @@
 \usepackage{tikz}
 \usepackage{amsmath}
 
+\newcommand\myeqi{\mathrel{\overset{\makebox[0pt]{\mbox{\normalfont\tiny\sffamily (I)}}}{=}}}
+\newcommand\myeqii{\mathrel{\overset{\makebox[0pt]{\mbox{\normalfont\tiny\sffamily (II)}}}{=}}}
 \newcommand*\circled[1]{\tikz[baseline=(char.base)]{
             \node[shape=circle,draw,inner sep=2pt] (char) {#1};}}
 \DeclareRobustCommand{\brkbinom}{\genfrac[]{0pt}{}}
@@ -33,10 +35,17 @@
 				Also ist für $\alpha \brkbinom{\alpha x_1}{\alpha x_2}$, dass $\alpha x_2=\alpha (2x_1)=2(\alpha x_1)$\\
 				Damit ist $\alpha \brkbinom{x_1}{x_2} \in T_1$ und $T_1$ ist auch abgeschlossen bezüglich skalarer Multiplikation.\\
 				Damit ist $T_1$ ein Teilraum des $\mathbb{R}^2$.\\
+				
+				$T_1\neq\mathbb{R}^2$, da z.B. $\brkbinom{1}{0} \in \mathbb{R}^2$ und $\notin T_1$\\
+				Somit ist $dim(T_1)<dim(\mathbb{R}^2)$\\
+				$T_1\neq\{\vec{0}\}$, weil z.B. $\brkbinom{3}{6} \in T_1$
+				Somit ist $dim(T_1)>0$\\
+				Das heißt:\\
+				$$0<dim(T_1)<2$$
+				$$dim(T_1)=1$$
 				\underline{Über $T_2$ gilt:}\\
 				\indent $\bullet$ $\vec{0}=\brkbinom{0}{0} \notin T_1$, da $0^3+0^3=0 \neq 1$\\
 				$=>$ Somit ist der Nullvektor nicht in $T_2$ enthalten und damit ist $T_2$ kein Teilraum des $\mathbb{R}^2$.\\
-\newpage
 			\indent b)\\
 				$$V=\{f: \mathbb{R} \longrightarrow \mathbb{R}\}$$
 				$$T=\{f: \mathbb{R} \longrightarrow \mathbb{R} \mid f(1)=0\}$$
@@ -73,11 +82,11 @@
 					$$\alpha_1 p_1(z)+\alpha_2 p_2(z)+\alpha_3 p_3(z)+\alpha_4 p_4(z)=0$$
 					$$=>\alpha_1+\alpha_2z+2\alpha_3z^3-\alpha_3+4\alpha_4z^3-3\alpha_4z=0$$
 					$$4\alpha_4z^3+2\alpha_3z^2+(\alpha_2-3\alpha_4)z+(\alpha_1-\alpha_3)=0$$
-					Wir vergleichen die Koeffizienten:
-					$$4\alpha_4=0 \hspace{10pt} => \hspace{10pt} \alpha_4=0$$
-					$$2\alpha_3=0 \hspace{10pt} => \hspace{10pt} \alpha_3=0$$
-					$$\alpha_2-3\alpha_4=0 \hspace{10pt} => \hspace{10pt} \alpha_2=0$$
-					$$\alpha_1-\alpha_3=0 \hspace{10pt} => \hspace{10pt} \alpha_1=0$$
+					Durch Koeffizientenvergleich erhalten wir:\\
+					$$\text{(I) }4\alpha_4=0 \hspace{10pt} => \hspace{10pt} \alpha_4=0$$
+					$$\text{(II) }2\alpha_3=0 \hspace{10pt} => \hspace{10pt} \alpha_3=0$$
+					$$\text{(III) }\alpha_2-3\alpha_4=0 \hspace{10pt} => \hspace{10pt} 3\alpha_4 \myeqi 3\cdot 0=0$$
+					$$\text{(IV) }\alpha_1-\alpha_3=0 \hspace{10pt} => \hspace{10pt} \alpha_1=\alpha_3 \myeqii 0$$
 					Somit ist $\alpha_1=\alpha_2=\alpha_3=\alpha_4=0$ die einzige Lösung.\\
 					Damit sind $p_1(z)$, $p_2(z)$, $p_3(z)$, $p_4(z)$ linear unabhängig.\\
 				\indent c)\\
@@ -110,12 +119,46 @@
 					$$<=>\lambda_1=x \hspace{40pt} \lambda_3=-x$$
 					$$y=\lambda_1+\lambda_3+\lambda_4$$
 					$$=>y=x-x+\lambda_4 => \lambda_4=y$$
-					$$=x \brkbinom{2}{1}+0 \brkbinom{0}{0}-x \brkbinom{1}{1}+y \brkbinom{0}{1}$$
+					$$=>x \brkbinom{2}{1}+0 \brkbinom{0}{0}-x \brkbinom{1}{1}+y \brkbinom{0}{1}$$
 				\indent c)\\
 					$$\brkbinom{x}{y}=x\brkbinom{1}{1}+(y-x)\brkbinom{0}{1}$$
 					$$\brkbinom{1}{0}=1 \cdot \brkbinom{1}{1}+(0-1) \cdot \brkbinom{0}{1}=\brkbinom{1}{1}-\brkbinom{0}{1}=\brkbinom{1}{0}$$
 			\noindent \begin{Large}Aufgabe 4:\end{Large}\\[2pt]
 				\indent a)\\
 					Die Addition zweier Matrizen ist nur möglich wenn die Anzahl der Zeilen und Spalten der beiden Matrizen übereinstimmen.\\
-					Das heißt also A+C ist m
+					Das heißt also $A+C$ und $B+D$ ist möglich.\\
+					$$A+C=\begin{bmatrix}1&4\\-1&1\end{bmatrix}+\begin{bmatrix}-2&38\\3&0\end{bmatrix}=\begin{bmatrix}(1-2)&(4+38)\\(-1+3)&(1+0)\end{bmatrix}=\begin{bmatrix}-1&42\\2&1\end{bmatrix}$$
+					$$B+D=\begin{bmatrix}-1&2\end{bmatrix}+\begin{bmatrix}1-3i&-2+6i\end{bmatrix}=$$
+					$$\begin{bmatrix}(-1+1-3i)&(2-2+6i)\end{bmatrix}=\begin{bmatrix}-3i&6i\end{bmatrix}$$
+				\indent b)\\
+					Das Produkt zweier Matrizen ist nur dann definiert, wenn die Anzahl der Spalten der ersten Matrix gleich der Anzahl der Zeilen der zweiten Matrix ist.\\
+					Folgende Paare von Matrizen lassen sich also multiplizieren: $A\cdot B$, $A\cdot D$, $B\cdot D$, $C\cdot B$, $C\cdot D$, $D\cdot C$.\\
+					$$A\cdot B = \begin{bmatrix}2&2i\end{bmatrix} \cdot \begin{bmatrix}1-i&1\\0&3\end{bmatrix}=\begin{bmatrix}2(1-i)+2i\cdot 0& 2\cdot 1+3\cdot 2i\end{bmatrix}=\begin{bmatrix}2-2i&2+6i\end{bmatrix}$$
+					$$A\cdot D=\begin{bmatrix}2&2i\end{bmatrix}\cdot\begin{bmatrix}1-i&2&2-3i\\-1-3i&0&-1\end{bmatrix}$$
+					$$=\begin{bmatrix}2(1-i)+2i(-1-3i)&2\cdot 2+2i\cdot 0&2(2-3i)+2i(-1)\end{bmatrix}$$
+					$$=\begin{bmatrix}2-2i-2i+6&4&4-6i-2i\end{bmatrix}=\begin{bmatrix}8-4i&4&4-8i\end{bmatrix}$$
+					$$B \cdot D=\begin{bmatrix}1-i&1\\0&3\end{bmatrix}\cdot \begin{bmatrix}1-i&2&2-3i\\-1-3i&0&-1\end{bmatrix}$$
+					$$=\begin{bmatrix}(1-i)^2-1-3i&2(1-i)&(1-i)(2-3i)-1\\3(-1-3i)&0&-3\end{bmatrix}$$
+					$$=\begin{bmatrix}1-2i+i^2-1-3i&2-2i&2-3i-2i+3i^2-1\\-3-9i&0&-3\end{bmatrix}$$
+					$$=\begin{bmatrix}-1-5i&2-2i&-2-5i\\-3-9i&0&-3\end{bmatrix}$$
+					$$C\cdot B=\begin{bmatrix}i&-1+3i\\2&0\\2+3i&11\end{bmatrix}\cdot \begin{bmatrix}1-i&1\\0&3\end{bmatrix}$$
+					$$=\begin{bmatrix}i(1-i)&i+3(-1+3i)\\2(1-i)&2\\(2+3i)(1-i)&2+3i+3 \cdot 11 \end{bmatrix}$$
+					$$=\begin{bmatrix}1+i&i-3+9i\\2-2i&2\\2-2i+3i-3i^2&35+3i\end{bmatrix}$$
+					$$=\begin{bmatrix}1+i&10i-3\\2-2i&2\\5+i&35+3i\end{bmatrix}$$
+					$$C\cdot D= \begin{bmatrix}i&-1+3i\\2&0\\2+3i&11\end{bmatrix}\cdot \begin{bmatrix}1-i&2&2-3i\\-1-3i&0&-1\end{bmatrix}$$
+					$$=\begin{bmatrix}i(1-i)-(1-3i)(-1-3i)&2i&i(2-3i)-1(-1+3i)\\2(1-i)&4&4-6i\\(2+3i)(1-i)+11(-1-3i)&4+6i&(2+3i)(2-3i)-11\end{bmatrix}$$
+					$$=\begin{bmatrix}1+i-(-1-3i+3i-9)&2i&2i+3+1-3i\\2-2i&4&4-6i\\2-2i+3i+3-11-33i&4+6i&4-6i+6i+9-11\end{bmatrix}$$
+					$$=\begin{bmatrix}11+i&2i&4-i\\2-2i&4&4-6i\\-6-32i&4+6i&2\end{bmatrix}$$
+					$$D\cdot C=\begin{bmatrix}1-i&2&2-3i\\-1-3i&0&-1\end{bmatrix}\cdot\begin{bmatrix}i&-1+3i\\2&0\\2+3i&11\end{bmatrix}$$
+					$$=\begin{bmatrix}(1-i)i+2\cdot 2+(2-3i)(2+3i)&(1-i)(-1+3i)+11(2-3i)\\i(-1-3i)-1(2+3i)&(-1-3i)(-1+3i)-11\end{bmatrix}$$
+					$$=\begin{bmatrix}1+i+4+4+6i-6i+9&-1+3i+i+3+22-33i\\-i+3-2-3i&1-3i+3i+9-11\end{bmatrix}$$
+					$$=\begin{bmatrix}18+i&24-29i\\1-4i&-1\end{bmatrix}$$
+			\noindent \begin{Large}Aufgabe 5:\end{Large}\\[2pt]
+				\indent a)\\
+					$$A^2=A\cdot A=\begin{bmatrix}0&-1\\1&0\end{bmatrix}\cdot\begin{bmatrix}0&-1\\1&0\end{bmatrix}=\begin{bmatrix}-1&0\\0&-1\end{bmatrix}$$
+					$$A^3=A^2\cdot A=\begin{bmatrix}-1&0\\0&-1\end{bmatrix}\cdot\begin{bmatrix}0&-1\\1&0\end{bmatrix}=\begin{bmatrix}0&1\\-1&0\end{bmatrix}$$
+					$$A^4=A^3\cdot A=\begin{bmatrix}0&1\\-1&0\end{bmatrix}\cdot\begin{bmatrix}0&-1\\1&0\end{bmatrix}=\begin{bmatrix}1&0\\0&1\end{bmatrix}$$
+					$$A \text{ ist invertierbar, da } A\cdot A^{-1}=I \text{, wo } A^{-1}=A^3$$
+				\indent b)\\
+					$$A^5=A \hspace{20pt} A^6=A^2 \hspace{20pt} A^7=A^3 \hspace{20pt} A^8=A^4 \hspace{20pt} A^9=A^5=A \hspace{20pt} A^10=A^6=A^2$$
 \end{document}
